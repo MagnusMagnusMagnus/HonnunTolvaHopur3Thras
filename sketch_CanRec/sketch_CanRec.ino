@@ -136,11 +136,11 @@ void xbeeSend(int Msglength) {
 String nameSender(unsigned char canID) {
   switch(canID) {
     case 0x01:
-      return "Voltage";
+      return "Volt/X";
     case 0x02:
       return "Ohm /X";
     case 0x03:
-      return "Ampe/X";
+      return "Amp /X";
     default:
       return "NA  /X";
   }
